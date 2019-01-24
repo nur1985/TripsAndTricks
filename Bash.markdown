@@ -11,11 +11,11 @@ to change the permission to read-write-execute for user, read-write for group an
 User    Group    World    
 r+w+x    r+w+x    r+w+x    
 4+2+1    4+2+1    4+2+1    777
-r+w+x    r+x    r+x    
+r+w+x    r+x      r+x    
 4+2+1    4+0+1    4+0+1    755
-r+w+x    r    r    
+r+w+x    r        r    
 4+2+1    4+0+0    4+0+0    744
-r    r+w    r+w+x    
+r        r+w      r+w+x    
 4+0+0    4+2+0    4+2+1    467
 ```
 ### Change the user and/or group ownership of a given file or directory in Unix.
