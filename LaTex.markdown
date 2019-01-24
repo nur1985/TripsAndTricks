@@ -32,7 +32,7 @@
 ```
 
 ### Indicator variable style equations
-
+```
 \[
 x_i = \left\{
 \begin{array}{l l}
@@ -40,9 +40,10 @@ x_i = \left\{
 0 & \quad \text{if the ith person is male}\\
 \end{array} \right.
 \]
+```
 
 ### Figure example
-
+```
 \begin{figure}[!h]
 \begin{center}
 \includegraphics[width=15.0cm]{figures/fig1.png}
@@ -52,32 +53,35 @@ x_i = \left\{
 {Long caption.}
 \label{fig:fig1}
 \end{figure}
-
+```
 or 
-
+```
 \begin{figure}
 \centering
 \includegraphics[height=0.32\textheight]{RecursionTree}
 \caption{A caption.}
 \label{fig:recursiontree}
 \end{figure}
+```
 
 ### use numbers instead of letters in the appendix
-
+```
 \appendix
 \renewcommand{\thesection}{\arabic{section}}
+```
 
 ### footnotes
-
+```
 \footnote{text, blah, blah}
-
+```
 ### urls
-
+```
 \usepackage{hyperref}
-
+```
 Then:
-
+```
 \url{www.example.com}
+```
 
 ### enumerations
 
@@ -115,12 +119,12 @@ Also,
 ### matrices
 
 We can use `bmatrix`, `pmatrix`, etc.
-
+```
 \begin{pmatrix}
 \Sigma_x & \Sigma_{xy} \\
 Sigma_{xy}^T & \Sigma_y
 \end{pmatrix}
-
+```
 ### nice limits
 
 \lim\limits_{x \to y}
