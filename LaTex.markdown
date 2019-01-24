@@ -2,6 +2,7 @@
 
 
 ### LaTex font sizes
+```
 \tiny
 \scriptsize
 \footnotesize
@@ -12,8 +13,10 @@
 \LARGE
 \huge
 \Huge
+```
 
 ### Beamer presentation special effect:
+```
 \transblindshorizontal    % Horizontal blinds pulled away
 \transblindsvertical % Vertical blinds pulled away
 \transboxin % Move to center from all sides
@@ -26,6 +29,7 @@
 \transhorizontalout % Sweeps two horizontal lines out
 \transwipe % Sweeps single line in specified direction
 \transduration{2}    % Show slide specified number of seconds
+```
 
 ### Indicator variable style equations
 
