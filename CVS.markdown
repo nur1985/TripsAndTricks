@@ -8,11 +8,16 @@ cvs co minervadoc/PB024_MLVertexFinding
 ```
 
 ### Update
+Bring working dir specified up to date with the repository (merge changes made to the repository into the local files).
 ```
-cvs update –dA package  # Bring working dir specified up to date with the repository (merge changes made to the repository into the local files).
-
-cvs update –A filename # Bring just the named file up-to-date with the repository
-
+cvs update –dA package  
+```
+Bring just the named file up-to-date with the repository
+```
+cvs update –A filename
+```
+Do not change any files. Attempt to execute the cvs_command, but only to issue reports; do not remove, update, or merge any existing files, or create any new files.
+```
 cvs -n update -Af 
 ```
 
